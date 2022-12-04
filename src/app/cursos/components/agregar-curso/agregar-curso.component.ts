@@ -17,7 +17,7 @@ export class AgregarCursoComponent implements OnInit {
     private router: Router
   ) {
     this.formulario = new FormGroup({
-      nombre: new FormControl('VueJS', [Validators.required]),
+      nombre: new FormControl('Angular', [Validators.required]),
       comision: new FormControl(),
       profesor: new FormControl(),
       inicio: new FormControl(),
