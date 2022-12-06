@@ -6,6 +6,12 @@ import { Curso } from '../../models/curso';
 
 @Injectable()
 export class CursoService {
+  obtenerCursosPromise(): any {
+    throw new Error('Method not implemented.');
+  }
+  obtenerCursosObservable() {
+    throw new Error('Method not implemented.');
+  }
 
   constructor(
     private http: HttpClient

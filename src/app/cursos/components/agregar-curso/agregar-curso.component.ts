@@ -37,7 +37,7 @@ export class AgregarCursoComponent implements OnInit {
       inscripcionAbierta: this.formulario.value.inscripcionAbierta,
       imagen: 'https://parentesis.com/imagesPosts/coder00.jpg'
     };
-    console.log(curso);
+    ;
     this.cursoService.agregarCurso(curso);
     this.router.navigate(['cursos/listar']); // localhost/cursos/listar
   }
