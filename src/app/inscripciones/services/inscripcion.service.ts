@@ -9,6 +9,7 @@ import { environment } from 'src/environments/environment';
 })
 export class InscripcionService {
 
+  baseUrl = "https://rickandmortyapi.com/api/";
   constructor(
     private http: HttpClient
   ) { }
